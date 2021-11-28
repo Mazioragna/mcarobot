@@ -30,7 +30,7 @@ async def answer(bot, query):
         file_type = None
 
     offset = int(query.offset or 0)
-    reply_markup = get_reply_markup(query=string)
+    reply_markup = get_reply_markup(query=string) 
     files, next_offset = await get_search_results(string,
                                                   file_type=file_type,
                                                   max_results=10,
@@ -89,9 +89,9 @@ async def answer(bot, query):
 
 def get_reply_markup(query):
     buttons = [[
-        InlineKeyboardButton('Deploy Video', url=f'{TUTORIAL}')
+        InlineKeyboardButton('♥️ Join Now ♥️', url=f'{TUTORIAL}')
         ],[
-        InlineKeyboardButton('🔍 Search again 🔎', switch_inline_query_current_chat=query)
+        InlineKeyboardButton(' 👀 Search 👀', switch_inline_query_current_chat=query)
         ]]
     return InlineKeyboardMarkup(buttons)
 
