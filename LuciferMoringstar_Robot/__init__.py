@@ -30,7 +30,7 @@ Bot Owner Only
 ABOUT = """
 ➥ Name :  Auto Filter V3
     
-➥ Creator : [Naughty PROFESSOR](https://t.me/movie_club_arena)
+➥ Creator : [ mazio_7](https://t.me/movie_club_arena)
 
 ➥ Language : Python3
 
